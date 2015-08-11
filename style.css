@@ -2,7 +2,7 @@ h1
 {
 font-family: monaco,Consolas,"Lucida Console",monospace;
 font-size: 14px;
-color: white;	
+color: #707070;	
 }
 
 h2
@@ -10,7 +10,7 @@ h2
 text-align: center;
 font-family: monaco,Consolas,"Lucida Console",monospace;
 font-size: 18px;
-color: white;
+color: #707070;
 }
 
 body
@@ -22,4 +22,28 @@ body
 div {
     width: 1200px;
     border: 2px dotted black;
+}
+
+/* unvisited link */
+a:link {
+    color: #000066;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #000066;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+    text-decoration: none;
 }
