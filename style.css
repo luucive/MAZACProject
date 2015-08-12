@@ -94,3 +94,13 @@ li{
    position: relative; 
    width: 100%; /* for IE 6 */
 }
+
+h5{
+    font-family: 'Quicksand', sans-serif;   
+    font-size: 55px;
+}
+
+h6{
+    font-family: 'Quicksand', sans-serif;   
+    font-size: 35px;
+}
