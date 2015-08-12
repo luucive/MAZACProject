@@ -17,8 +17,7 @@ font-family: 'Quicksand', sans-serif;	font-size: 11px;
 	background-color: #E0FFE0;
 }
 div {
-    width: 1200px;
-    border: 2px dotted black;
+    width: 800px;
 }
 
 /* unvisited link */
