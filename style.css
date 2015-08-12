@@ -1,7 +1,7 @@
 h1
 {
 font-family: 'Quicksand', sans-serif;
-font-size: 18px;
+font-size: 30px;
 color: #000000;	
 }
 
@@ -103,4 +103,9 @@ h5{
 h6{
     font-family: 'Quicksand', sans-serif;   
     font-size: 35px;
+}
+
+p1{
+   font-family: 'Quicksand', sans-serif;   
+  font-size: 25px;
 }
