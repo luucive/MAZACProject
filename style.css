@@ -70,8 +70,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #d3ffce;
-    text-decoration: underline;
+    color: #3cff00;
+    text-decoration: none;
 }
 
 /* selected link */
