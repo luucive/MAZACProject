@@ -22,10 +22,11 @@ h3 {
 
 h3 span { 
    color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
+   font: bold 25px/55px 'Quicksand', sans-serif; 
+   font-size: 30px;
    letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
+   background: rgba(0, 0, 0, 0.5);
    padding: 10px; 
 }
 
@@ -45,16 +46,15 @@ body
     font-size: 11px;
 	background-color: #E0FFE0;
 }
-<<<<<<< HEAD
+
 div {
     width: 800px;
 }
-=======
+
 /*div {
     width: 1200px;
     border: 2px dotted black;
 }*/
->>>>>>> origin/master
 
 /* unvisited link */
 a:link {
@@ -70,8 +70,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #d3ffce;
-    text-decoration: underline;
+    color: #3cff00;
+    text-decoration: none;
 }
 
 /* selected link */
