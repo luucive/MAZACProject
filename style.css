@@ -58,13 +58,13 @@ div {
 
 /* unvisited link */
 a:link {
-    color: #000066;
+    color: #6aec9a;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #000066;
+    color: #6aec9a;
     text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #0000FF;
+    color: #6aec9a;
     text-decoration: none;
 }
 
@@ -91,6 +91,7 @@ li{
 }
 
 .image { 
+  display: center;
    position: relative; 
    width: 100%; /* for IE 6 */
 }
