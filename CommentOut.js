@@ -33,9 +33,11 @@ function convertToGeoJSON(data) {
         }
     }
 
-    geojson = { type: 'FeaturesCollection', features: places};
+    geojson = { type: 'FeatureCollection', features: places};
     setupMap(geojson);
 }
+
+
 
 function setupMap(geo) {
     myLayer.setGeoJSON(geo); // Adds all of the points to the map
