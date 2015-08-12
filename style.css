@@ -29,13 +29,20 @@ h3 span {
    padding: 10px; 
 }
 
+p{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
 h3 span.spacer {
    padding:0 5px;
 }
 
 body
 {
-font-family: 'Quicksand', sans-serif;	font-size: 11px;
+    font-family: 'Quicksand', sans-serif;	
+    font-size: 11px;
 	background-color: #E0FFE0;
 }
 <<<<<<< HEAD
@@ -78,8 +85,9 @@ a:active {
 }
 
 li{
-        display: inline;
-
+    display: inline;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;   
 }
 
 .image { 
