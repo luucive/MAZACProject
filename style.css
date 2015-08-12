@@ -54,5 +54,10 @@ a:active {
 }
 
 #navbar{
-    text-align: right;
+    float: right;
+}
+
+li{
+        display: inline;
+
 }
