@@ -1,4 +1,13 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnN0ZXJuIiwiYSI6IlAzRFFiN0EifQ.mNWvayrLEw9wULuq0sopyA';
+/*
+var mapconfig = { "tilejson": "2.0.0",
+"scheme": "xyz",
+"tiles": ["/proxy.php?z={z}&x={x}&y={y}"],
+"minzoom": 0,
+"maxzoom": 18,
+"center": [12.93509,50.88306,12]
+};
+*/
 var map = L.mapbox.map('map', 'examples.map-20v6611k')
   .setView([38.12367, -76.81229], 9);
 
@@ -29,7 +38,7 @@ var geojson = {
         type: 'Feature',
         properties: {
             title: 'New York and Newark',
-            description: 'Girls Who Code\'s first program was here in 2012!',
+            description: 'Girls Who Codes first program was here in 2012!',
             'marker-color': '#eae374',
             'marker-size': 'large',
             'marker-symbol': 'city',
@@ -57,7 +66,7 @@ var geojson = {
         type: 'Feature',
         properties: {
             title: 'Miami, Florida',
-            description: 'I hope all that sun doesn\'t melt the computers',
+            description: 'I hope all that sun doesnt melt the computers',
             'marker-color': '#7ec9b1',
             'marker-size': 'large',
             'marker-symbol': 'swimming',
@@ -106,7 +115,7 @@ var geojson = {
         },
         geometry: {
             type: 'Point',
-            coordinates: [-87.68,41.84, ]
+            coordinates: [-87.68,41.84]
         }
     },
     {
@@ -123,7 +132,7 @@ var geojson = {
             type: 'Point',
             coordinates: [-77.02, 38.90]
         }
-    }
+    },
     
 
     ]

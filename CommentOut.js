@@ -1,7 +1,7 @@
 var geojson; //why do we need to initialize this variable? What is this for? //this variable sets up the map by refrencing the features collection
 
 //what does the initialize part do? //the initilize part creates the variable 
-L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnN0ZXJuIiwiYSI6IlAzRFFiN0EifQ.mNWvayrLEw9wULuq0sopyA';
+/*L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnN0ZXJuIiwiYSI6IlAzRFFiN0EifQ.mNWvayrLEw9wULuq0sopyA';
 var map = L.mapbox.map('map', 'examples.map-20v6611k')
   .setView([38.12367, -76.81229], 9);
 
@@ -92,7 +92,7 @@ myLayer.setGeoJSON(geojson); // Adds all of the points to the map
 // Makes sure that map's initial zoom contains all of the points
 map.on('ready', function() {
     map.fitBounds(myLayer.getBounds());
-});
+});*/
 
 document.addEventListener('DOMContentLoaded', function() {
     //var URL = '1fmQs-Il1k3zBYs3UHyJGhNw_GYyp93RTgVE7BLnFX-4';
