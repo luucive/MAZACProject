@@ -2,7 +2,7 @@ h1
 {
 font-family: 'Quicksand', sans-serif;
 font-size: 30px;
-color: #000000;	
+color: white;	
 }
 
 h2
@@ -101,33 +101,33 @@ a:active {
     text-decoration: none;
 }
 
-#navbar{
+#nav{
     float: right;
 }
 
 li{
-    display: inline;
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;   
+  display: inline;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;   
 }
 
 .image { 
-   position: relative; 
-   width: 100%; /* for IE 6 */
+  position: relative; 
+  width: 100%; /* for IE 6 */
 }
 
 h5{
-    font-family: 'Quicksand', sans-serif;   
-    font-size: 55px;
+  font-family: 'Quicksand', sans-serif;   
+  font-size: 55px;
 }
 
 h6{
-    font-family: 'Quicksand', sans-serif;   
-    font-size: 35px;
+  font-family: 'Quicksand', sans-serif;   
+  font-size: 35px;
 }
 
 p1{
-   font-family: 'Quicksand', sans-serif;   
+  font-family: 'Quicksand', sans-serif;   
   font-size: 25px;
 }
 
@@ -139,7 +139,13 @@ p1{
 #head{
   font-family: 'Poppins', sans-serif;
   font-weight: 0;
+  color: white;
 }
 
+#us { 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto 
+}
 
 
