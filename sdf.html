@@ -169,7 +169,27 @@
     </div>
 
   </a>
+  
+<script type="text/javascript">
+  $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+  var amountScrolled = 300;
 
+$(window).scroll(function() {
+  if ( $(window).scrollTop() > amountScrolled ) {
+    $('a.back-to-top').fadeIn('slow');
+  } else {
+    $('a.back-to-top').fadeOut('slow');
+  }
+});
+
+$('a.back-to-top, a.sbtt').click(function() {
+  $('body, html').animate({
+    scrollTop: 0
+  }, 700);
+  return false;
+});
+</script>
+<a href = "#" class="sbtt"> Back to Top </a>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="smoothscroll.js"></script>
 </body>
