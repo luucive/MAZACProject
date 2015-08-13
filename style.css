@@ -136,16 +136,14 @@ p1{
   font-size: 15px;
 }
 
-#head{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 0;
-  color: white;
-}
-
 #us { 
   display: block; 
   margin-left: auto; 
   margin-right: auto 
 }
 
-
+a.name{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 0;
+  color: white;  
+}
