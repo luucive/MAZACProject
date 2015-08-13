@@ -22,7 +22,7 @@ h3 {
 
 h3 span { 
    color: white; 
-   font: bold 24px/50px Helvetica, Sans-Serif; 
+   font: bold 24px/50px 'Biryani', sans-serif;
    letter-spacing: 0px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
@@ -41,14 +41,14 @@ h3 span.spacer {
 
 b3 { 
    position: absolute; 
-   top: 240px; 
+   top: 255px; 
    left: 0; 
    width: 100%; 
 }
 
 b3 span { 
    color: white; 
-   font: bold 18px/35px Helvetica, Sans-Serif; 
+   font: bold 18px/35px 'Biryani', sans-serif;
    letter-spacing: 0px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
@@ -135,3 +135,11 @@ p1{
   font-family: 'Quicksand', sans-serif;
   font-size: 15px;
 }
+
+#head{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 0;
+}
+
+
+
