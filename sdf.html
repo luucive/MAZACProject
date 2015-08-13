@@ -65,11 +65,11 @@
     <div class="navbar" >
       <ul id= "nav" >
         <li class="active"></li>
-        <li><a href="#mission">OUR MISSION</a></li>
-        <li><a href="#volunteer">VOLUNTEERING</a></li>
-        <li><a href="#kindness">ACTS OF KINDNESS</a></li>
-        <li><a href="#wellness">DAILY WELLNESS</a></li>
-        <li><a href="#team">THE TEAM</a></li>
+        <li><a href="#mission"  class="smoothScroll" >OUR MISSION</a></li>
+        <li><a href="#volunteer"  class="smoothScroll">VOLUNTEERING</a></li>
+        <li><a href="#kindness"  class="smoothScroll">ACTS OF KINDNESS</a></li>
+        <li><a href="#wellness"  class="smoothScroll">DAILY WELLNESS</a></li>
+        <li><a href="#team"  class="smoothScroll">THE TEAM</a></li>
       </ul>
     </div>
   </div>
@@ -86,21 +86,29 @@
 </div>
 
   <section>
-<a name = "mission" id ="head"> </a>
+<div id = "mission" class="smoothScroll" > </div>
   </section>
     <h1>OUR MISSION</h1>
     <p1>The MAZAC Project encourages humankind to participate in kind acts to spread positivity to a global scale, therefore making our world a better place. One small act can impact the lives of others in a variety of ways. This project provides effective means for the prevention of inhumanity to people throughout the world. </p1>
 
 
+<section>
+    <div id  ="volunteer" class="smoothScroll" ></div>
+    <h1>VOLUNTEER SITES</h1>
+    <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/mhwessel3.n5joe50e/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoibWh3ZXNzZWwzIiwiYSI6IjUxNDUzYjVhYjk1YTI4ODUwZTE3NDBhZjYwYzcwMWE1In0.2hcugYd4xfSyO_lDfteu3Q'></iframe>
+  </section>
+
+  <br>
 
   <section>
-<a name = "kindness" id ="head"> </a>
+<div id  = "kindness" class="smoothScroll" > </div>
    </section>
     <h1>ACTS OF KINDNESS</h1>
         <a href="kindness.html"><p1> Do something nice!</p1></a> 
 
 
   <br>
+<<<<<<< HEAD
 
   <section>
     <a name="volunteer" id ="head"></a>
@@ -108,14 +116,18 @@
     <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/mhwessel3.n5joe50e/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoibWh3ZXNzZWwzIiwiYSI6IjUxNDUzYjVhYjk1YTI4ODUwZTE3NDBhZjYwYzcwMWE1In0.2hcugYd4xfSyO_lDfteu3Q'></iframe>
   </section>
 
+=======
+      
+    
+>>>>>>> origin/master
   <section>
-    <a name = "wellness" id ="head"></a>
+    <div id  = "wellness" class="smoothScroll" ></div>
     <h1>DAILY WELLNESS</h1>
   </section>
      <a href="wellness.html"><p1> Click here for some tips! </p1></a> 
 
   <section>
-    <a name = "team" id ="head"></a>
+    <div id  = "team" class="smoothScroll" ></div>
   </section>
     <h1>ABOUT US</h1>
   <div class="row">
@@ -167,8 +179,29 @@
     </div>
 
   </a>
+  
+<script type="text/javascript">
+  $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+  var amountScrolled = 300;
 
+$(window).scroll(function() {
+  if ( $(window).scrollTop() > amountScrolled ) {
+    $('a.back-to-top').fadeIn('slow');
+  } else {
+    $('a.back-to-top').fadeOut('slow');
+  }
+});
 
+$('a.back-to-top, a.sbtt').click(function() {
+  $('body, html').animate({
+    scrollTop: 0
+  }, 700);
+  return false;
+});
+</script>
+<a href = "#" class="sbtt"> Back to Top </a>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="smoothscroll.js"></script>
 </body>
 </center>
 </html>
