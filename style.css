@@ -2,7 +2,7 @@
 html,
 body {
   height: 100%;
-  background-color: #808080;
+  background-color: white;
 }
 
 .carousel,
@@ -44,6 +44,22 @@ h3 {
 }
 
 h3 span { 
+   color: white; 
+   font: bold 34px/50px 'Biryani', sans-serif;
+   letter-spacing: 0px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+h8 { 
+   position: absolute; 
+   top: 1650px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h8 span { 
    color: white; 
    font: bold 34px/50px 'Biryani', sans-serif;
    letter-spacing: 0px;  
