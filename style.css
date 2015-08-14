@@ -74,6 +74,13 @@ p{
 
 }
 
+p1{
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+
+}
+
 h7 { 
    position: absolute; 
    top: 1870px; 
@@ -188,7 +195,6 @@ h6{
 p1{
   font-family: 'Quicksand', sans-serif;   
   font-size: 25px;
-  float: right;
 }
 
 #the{
@@ -218,14 +224,4 @@ a.name{
 img{
   max-width: 100%;
     height: auto;
-}
-
-@media  (min-width: 768px) {
-    div.col-sm-7.five-three {
-    width: 60% !important;
-    }
-
-    div.col-sm-5.five-two {
-    width: 40% !important;
-    }
 }
